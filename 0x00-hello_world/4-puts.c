@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main to write
- * how to write a sentence in c
- * always return 0
+ * main -A print using puts
+ *
+ * Return: 0 (Success)
 */
 int main(void)
 {
