@@ -18,7 +18,9 @@ int main(void)
 	{
 	for (k = alpha; k <= 57; k++)
 	{
-	for (i = j + 1; i <= 57; i++)
+	for (i = j; i <= 57; i++)
+	{
+	if (alpha != 57 || j != 56 || k != 57 || i != 57)
 	{
 	putchar(alpha);
 	putchar(j);
@@ -29,6 +31,7 @@ int main(void)
 	{
 	putchar(44);
 	putchar(32);
+	}
 	}
 	}
 	}
