@@ -18,7 +18,7 @@ int main(void)
 	{
 	for (k = alpha; k <= 57; k++)
 	{
-	for (i = j; i <= 57; i++)
+	for (i = 48; i <= 57; i++)
 	{
 	if (alpha != k || j != i)
 	{
