@@ -21,6 +21,8 @@ int main(void)
 	for (i = 48; i <= 57; i++)
 	{
 	if (alpha != k || j != i)
+	if (alpha + j <= k + i)
+	{
 	{
 	putchar(alpha);
 	putchar(j);
@@ -31,6 +33,7 @@ int main(void)
 	{
 	putchar(44);
 	putchar(32);
+	}
 	}
 	}
 	}
