@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -8,13 +8,12 @@
  * Return: void (Success)
 */
 void print_alphabet(void);
-
 {
-	char alpha;
+	int alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 	_putchar(alpha);
 	}
 	_putchar('\n');
-}	
+}

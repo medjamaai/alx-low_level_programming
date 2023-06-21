@@ -1,7 +1,7 @@
 #include <unistd.h>
 /* betty style doc for function main goes there */
 /**
- * main - functions
+ * putchar - functions
  *
  * Return: chaine de caractere (Success)
 */
