@@ -11,9 +11,6 @@
 int main(void)
 {
 	int  i;
-	char buzz[] = "Buzz";
-	char fizz[] = "Fizz";
-	char fizzbuzz[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
@@ -21,12 +18,12 @@ int main(void)
 	printf("%d", i);
 	else if (i % 3 == 0 && i % 5 == 0)
 	{
-	printf("%s", fizzbuzz);
+	printf("FizzBuzz");
 	}
 	else if (i % 3 == 0)
-	printf("%s", fizz);
+	printf("Fizz");
 	else
-	printf("%s", buzz);
+	printf("Buzz");
 	printf(" ");
 	}
 	printf("\n");
