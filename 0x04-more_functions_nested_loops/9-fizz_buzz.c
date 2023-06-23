@@ -22,8 +22,9 @@ int main(void)
 	printf("Fizz");
 	else
 	printf("Buzz");
+	if (i != 100)
 	printf(" ");
-	if (i == 100)
+	else
 	printf("\n");
 	}
 	return (0);
