@@ -15,7 +15,13 @@ char *_strcpy(char *dest, char *src)
 	len = strlen(src);
 	for (i = 0; i < len; i++)
 	{
-	*(dest + i) = *(src + i);
+	if (*src != '\0')
+	{
+	*(dest + i) = *src;
+	src++;
+	}
+	else
+	break;
 	}
 	return (dest);
 }
