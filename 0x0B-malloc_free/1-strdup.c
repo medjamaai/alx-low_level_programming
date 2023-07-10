@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strdup - duplicate to new memory space location
+ * _strdup - function code
  * @str: char
  * Return: 0
  */
@@ -15,10 +15,8 @@ char *_strdup(char *str)
 	size = strlen(str);
 	if (str == NULL)
 		return (NULL);
-	else
-	{
 	cp = malloc(size * sizeof(char));
 	strcpy(cp, str);
+	strcpy(cp, '\0');
 	return (cp);
-	}
 }
