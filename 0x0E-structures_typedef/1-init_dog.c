@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include "dog.h"
 /**
  * init_dog - intializes a dog information
  * @name : input
